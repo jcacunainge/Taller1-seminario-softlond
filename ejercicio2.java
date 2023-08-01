@@ -7,12 +7,12 @@ public class ejercicio2 {
 
     public static void main(String[] args) {
         String input1 = JOptionPane.showInputDialog("Ingrese un numero entero");
-        int numero1 = Integer.parseInt(input1);
+        int numero = Integer.parseInt(input1);
 
-        if (numero1 % 2 == 0) {
-            JOptionPane.showMessageDialog(null, "El número " + numero1 + " es par.");
+        if (numero % 2 == 0) {
+            JOptionPane.showMessageDialog(null, "El número " + numero + " es par.");
         } else {
-            JOptionPane.showMessageDialog(null, "El número " + numero1 + " es impar.");
+            JOptionPane.showMessageDialog(null, "El número " + numero + " es impar.");
         }
     }
 }
