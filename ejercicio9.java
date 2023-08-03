@@ -12,7 +12,7 @@ public class ejercicio9 {
         int resultado = 1;
 
         for (int i = 1; i <= numero; i++) {
-            resultado *= i; // Multiplica el resultado por el valor del contador (i)
+            resultado *= i;
         }
 
         JOptionPane.showMessageDialog(null, "El factorial de " + numero + " es: " + resultado);
