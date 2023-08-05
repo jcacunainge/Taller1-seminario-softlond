@@ -6,6 +6,7 @@ public class ejercicio21 {
 
         //Pide al usuario una cadena y muestra cuántas veces aparece una letra
         //específica en ella
+        
         String cadena = ingresarCadena();
         char letra = ingresarLetra();
         int cantidad = contarLetra(cadena, letra);

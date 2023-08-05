@@ -4,6 +4,7 @@ public class ejercicio23 {
 
         //Crea un programa que pida al usuario una oración y muestre cuántas
         //palabras contiene
+        
         String oracion = ingresarOracion();
 
         int cantidadPalabras = contarPalabras(oracion);

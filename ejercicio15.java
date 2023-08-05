@@ -2,6 +2,11 @@ import javax.swing.JOptionPane;
 
 public class ejercicio15 {
     public static void main(String[] args) {
+
+        //Crea un programa que pida al usuario un número entero y determine si es un
+        // número capicúa. Un número capicúa es aquel que se lee igual de izquierda a
+        // derecha que de derecha a izquierda.
+        
         String input = JOptionPane.showInputDialog("Ingrese un número entero:");
         int numero = Integer.parseInt(input);
 

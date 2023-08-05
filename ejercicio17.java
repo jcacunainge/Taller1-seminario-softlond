@@ -1,6 +1,9 @@
 import javax.swing.JOptionPane;
 
 public class ejercicio17 {
+    //Pide al usuario dos números enteros y muestra todos los números primos
+    //que se encuentran en ese rango.
+
     public static void main(String[] args) {
         String input1 = JOptionPane.showInputDialog("Ingrese el primer número entero:");
         int numero1 = Integer.parseInt(input1);
